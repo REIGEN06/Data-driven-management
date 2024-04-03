@@ -1,0 +1,11 @@
+.main {
+  width: 100%;
+}
+
+.workspace {
+  max-width: rem(630);
+  padding: 0 rem(20);
+  margin-right: auto;
+  margin-left: auto;
+  height: 90vh;
+}

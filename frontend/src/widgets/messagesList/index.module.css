@@ -1,0 +1,34 @@
+.messages_stack {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px 0 100px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message_sender {
+  font-size: rem(16);
+  font-weight: 600;
+}
+
+.message_from_chatbot {
+  border: 1px solid var(--mantine-color-blue-6);
+  color: var(--mantine-color-blue-6);
+  padding: 4px;
+}
+
+.message_text {
+  white-space: pre-line;
+  padding-inline-start: 40px;
+  font-size: rem(16);
+}
+
+.message_error {
+  color: var(--mantine-color-red-6);
+  font-weight: 600;
+}

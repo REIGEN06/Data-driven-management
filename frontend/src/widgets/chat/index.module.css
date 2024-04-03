@@ -1,0 +1,22 @@
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.chat {
+  height: 100vh;
+  max-width: rem(480);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.chat_input {
+  padding-bottom: 20px;
+  position: sticky;
+  bottom: 0;
+  max-width: rem(590);
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background: white;
+}
